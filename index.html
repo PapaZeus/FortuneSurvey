@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mystic Fortune</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Mystic Fortune</h2>
+        <p>Beware, you may learn more about your future than you care to know!</P>
+      </div>
+      
+      <div class="row">
+        <div class="col-md-4">
+          <form id="fortune-form">
+            <div class="form-group">
+              <p>Of the numbers below, which ones resonate with your essence?</p>
+              <input type="checkbox" name="number" value="1">1<br>
+              <input type="checkbox" name="number" value="3">3<br>
+              <input type="checkbox" name="number" value="7">7<br>
+              <input type="checkbox" name="number" value="13">13<br>
+              <input type="checkbox" name="number" value="35">35<br>
+              <input type="checkbox" name="number" value="100">100<br>
+              <input type="checkbox" name="number" value="0">0<br>
+            </div>
+            
+            <div class="form-group">
+              <p>Of the animals below, which ones resonate with your essence?</p>
+              <input type="checkbox" name="animal" value="fish">Fish<br>
+              <input type="checkbox" name="animal" value="dog">Dog<br>
+              <input type="checkbox" name="animal" value="pig">Pig<br>
+              <input type="checkbox" name="animal" value="rabbit">Rabbit<br>
+              <input type="checkbox" name="animal" value="snake">Snake<br>
+              <input type="checkbox" name="animal" value="bull">Bull<br>
+              <input type="checkbox" name="animal" value="turtle">Turtle<br>
+            </div>
+            
+            <div class="form-group">
+              <p>Of the words below, which ones resonate with your essence?</p>
+              <input type="checkbox" name="word" value="ocean">Ocean<br>
+              <input type="checkbox" name="word" value="shield">Shield<br>
+              <input type="checkbox" name="word" value="gemini">Gemini<br>
+              <input type="checkbox" name="word" value="devil">Devil<br>
+              <input type="checkbox" name="word" value="angel">Angel<br>
+              <input type="checkbox" name="word" value="snowflake">Snowflake<br>
+              <input type="checkbox" name="word" value="tree">Tree<br>
+            </div>
+        
+            <button class="btn btn-danger" type="submit">Submit Survey</button>
+          </form>
+        </div>
+      </div>
+      
+      <span id="die-tomorrow">
+        <p><b>Based on your results, it looks like you only have one day to live! Make it a good one.</b></p>
+      </span>
+      <br>
+      <span id="live-forever">
+        <p><b>You are the most fortunate person to walk this earth! Hope you like it here since it looks like you will never die. </b></p>
+      </span>
+      <br>
+      <span id="average-life">
+        <p><b>Your fortune reveals a normal life awaits you. Enjoy!</b></p>
+      </span>
+      
+    </div>
+  </body>
+</html>
